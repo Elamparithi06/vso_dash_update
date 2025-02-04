@@ -131,7 +131,7 @@ export default function Home() {
   return (
     <Container fluid className="p-0 m-0">
       <Navbar bg="primary" variant="dark" expand="lg" className="p-3">
-        <Container>
+        <img className="image" src="./src/assets/CavinKare.jpg" alt="CavinKare" />
           <Navbar.Brand href="#">Dashboard</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -142,12 +142,13 @@ export default function Home() {
               <Button variant="danger" className="ms-3" onClick={handleLogout}>Sign Out</Button>
             </Nav>
           </Navbar.Collapse>
-        </Container>
+    
       </Navbar>
 
       {/* Home Tab */}
       {activeTab === "home" && (
         <Container className="mt-4">
+          <h1 className="title">VSO audit tracking dashboard</h1>
           <Card className="card p-3">
             <h2 className="tableTitle">VSO NC</h2>
             <div className="table-responsive">
