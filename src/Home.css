@@ -15,3 +15,21 @@
 .card{
     max-width: 100%;
 }
+
+.image{
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    outline: 0;
+    margin: 0 2rem 0 3rem;
+}
+
+.title{
+    /* color: brown; */
+    
+    /* outline: 2px solid rgb(228, 6, 17);
+    background-image: url("./src/assets/CavinKare.jpg");
+    padding: 4rem; */
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
