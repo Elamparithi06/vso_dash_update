@@ -10,7 +10,7 @@ export default function SignIn({ onAuthenticate }) {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === "CQA auditor" && password === "CavinKare") {
+    if (username === "CQA auditor" && password === "CavinKare123") {
       onAuthenticate();
     } else {
       setError("Invalid username or password");
